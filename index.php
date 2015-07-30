@@ -42,6 +42,7 @@ if (isset($getd)) {
 	</div>
 	</div>
 	</div>
+
 	<div class="container">
 	<p>Userrightchanges via meta on local wikis.</p>
 	<form class="form-search">
@@ -87,8 +88,12 @@ if (isset($getd)) {
 		<strong>How to use this tool?</strong> You can search rightchanges by wiki (Example:  <strong>dewiki</strong>), by username (Example: <strong>Steinsplitter@test2wiki</strong>) or by a specific username on all wikis (Example: <strong>Base@%</strong>).
 	</div>
 <?php endif; ?>
-</div>
-</div>
-<center>Powered by <a href="https://www.mediawiki.org/wiki/Wikimedia_Labs" title="Wikimedia Labs"><em>WMF Labs</em></a> | Max. 1000 results</center>
+	</div>
+
+	<footer>
+	<div class="container">
+		Powered by <a href="https://www.mediawiki.org/wiki/Wikimedia_Labs" title="Wikimedia Labs"><em>WMF Labs</em></a> | Max. 1000 results
+	</div>
+	</footer>
 </body>
 </html>
