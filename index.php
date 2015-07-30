@@ -90,7 +90,7 @@ if (isset($getd)) {
 <?php endif; ?>
 	</div>
 
-	<footer>
+	<footer class="footer">
 	<div class="container">
 		Powered by <a href="https://www.mediawiki.org/wiki/Wikimedia_Labs" title="Wikimedia Labs"><em>WMF Labs</em></a> | Max. 1000 results
 	</div>
